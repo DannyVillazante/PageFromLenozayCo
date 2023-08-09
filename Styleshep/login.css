@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --quicksand: 'Quicksand', sans-serif;
+}
+.login{
+    /* background-color: silver; */
+    background-image: url(../images_leno/tela\ green.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    min-height: 625px;
+    /* border: 2px solid yellow; */
+    text-align: center;
+}
+.logo{
+    border: 2px solid yellow;
+}
+.paragraph{
+    color: white;
+    font-family: var(--quicksand);
+}
+.form{
+    border: 2px solid yellow;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+}
+.data{
+    border: 2px solid yellow;
+}
+.send{
+    border:2px solid yellow;
+}
